@@ -1,13 +1,13 @@
 import React from "react"
-import style from "../styles/index.css"
+import style from "../styles/index.module.css"
 import Navbar from "../components/navbar"
-import {BrowserRouter as Router} from "react-router-dom"
 
 export default function Home() {
   return (
-    <Router>
-      <Navbar/>
-      <p id="title">Hey, I'm Allen</p>
-    </Router>
+    <div>
+      <Navbar location={"Home"}/>
+      <p className={style.title}>Hey, I'm Allen</p>
+      <div>try out https://www.gatsbyjs.com/plugins/gatsby-image/?= when doing images</div>
+    </div>
   )
 }

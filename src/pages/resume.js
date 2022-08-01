@@ -1,8 +1,8 @@
 import React from "react"
 import ResumePDF from "../assets/Resume.pdf"
-import styles from "../styles/resume.css"
+import style from "../styles/resume.module.css"
 export default function Resume() {
   return(
-    <embed src={ResumePDF} id="Resume"/>
+    <embed src={ResumePDF} className={style.Resume}/>
   );
 }

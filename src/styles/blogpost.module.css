@@ -1,0 +1,8 @@
+.title{
+    font-size: 30px;
+    color:green;
+    text-decoration: none;
+}
+.title:visited{
+    color:green;
+}

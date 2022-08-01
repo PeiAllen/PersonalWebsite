@@ -1,0 +1,30 @@
+.button{
+    width:25%;
+    height: 5vh;
+    color:blue;
+    padding: 0;
+    border: none;
+    outline:none;
+    background:white;
+    border-radius: 12px;
+}
+.button:hover{
+    width:25%;
+    height: 5vh;
+    color:lightblue;
+    padding: 0;
+    border: none;
+    outline:none;
+    background:navajowhite;
+    border-radius: 12px;
+}
+.currentbutton{
+    width:25%;
+    height: 5vh;
+    color:red;
+    padding: 0;
+    border: none;
+    outline:none;
+    background:white;
+    border-radius: 12px;
+}
